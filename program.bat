@@ -1,0 +1,1 @@
+avrdude -c usbtiny -p attiny2313 -U lfuse:w:0xe4:m -U flash:w:ms_blinker.hex
